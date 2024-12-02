@@ -53,6 +53,7 @@ body {
     align-items: center;
     width: 100%;
     height: 100vh;
+    margin: 45px 0;
 }
 
 .content-container {
@@ -106,10 +107,9 @@ body {
 
 .prep ul{
     color: var(--stone-600);
-    list-style-position: inside;
     font-family: Outfit;
     font-size: 10px;
-    padding-left: 6px;
+    padding-left: 15px;
 }
 
 .prep li {
@@ -120,6 +120,13 @@ body {
     color: var(--rose-800);
     font-size: 8px;
 }
+
+.prep li::before {
+    content: ''; 
+    color: var(--rose-800); 
+    font-size: 8px;
+    margin-right: 10px;
+} 
 
 .prep span, .instructions span {
     color: var(--stone-600);
@@ -157,6 +164,13 @@ body {
     font-size: 8px;
 }
 
+.ingredients li::before {
+    content: ''; 
+    color: var(--brown); 
+    font-size: 8px;
+    margin-right: 10px;
+} 
+
 /* Instructions */
 .instructions {
     width: 100%;
@@ -172,20 +186,31 @@ body {
     margin-bottom: 15px;
 }
 
-.instructions ol{
+.instructions ol {
     color: var(--stone-600);
-    list-style-position: inside;
+    padding-left: 15px; 
     font-family: Outfit;
     font-size: 10px;
-    padding-left: 5px;
 }
 
 .instructions li {
-    margin: 6px 0;
+    position: relative; 
+    padding-left: 10px; 
+    margin: 6px 0; 
 }
 
 .instructions li::marker {
     color: var(--brown);
-    font-weight: bold;
-    font-size: 8px;
+    font-weight: 600;
 }
+
+.instructions li::before {
+    content: ''; 
+    color: var(--brown);
+    font-size: 8px;
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+}
+
+
