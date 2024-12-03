@@ -16,11 +16,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](assets/images/recipe.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/BaileyKH/recipe-page](https://github.com/BaileyKH/recipe-page)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
