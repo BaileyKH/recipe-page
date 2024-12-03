@@ -232,6 +232,14 @@ td {
     font-weight: 600;
 }
 
+/* Footer */
+footer {
+    background-color: white;
+    color: var(--brown);
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 0;
+}
 
 /* Media Queries */
 @media screen and (max-width: 480px) {
